@@ -3,7 +3,7 @@ import React from 'react';
 const SearchFilter = () => {
 	return (
 		<div class="row">
-			<div class="col">
+			<div class="col text-left">
 				<h4>Daftar mobil</h4>
 			</div>
 			<div class="col">

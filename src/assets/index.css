@@ -39,7 +39,7 @@ span.outlet {
 ul.list li {
     color: #acb4b8;
     font-size: 12px;
-    float: left;
+    /* float: left; */
     margin-right: 20px;
 }
 
@@ -55,4 +55,40 @@ span.pricemonth {
 
 p.card-text.font-weight-light {
     font-size: 8px;
+}
+
+.card.bot {
+    height: 6.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ol.breadcrumb {
+    background: white;
+}
+
+
+/* Responsive style */
+@media only screen and (max-width: 430px) {
+  .row.price-store {
+      display: none;
+  }
+  .card.border-dark.mb-3.text-left {
+    display: none;
+  }
+  .col.text-left {
+    display: none;
+  }
+  select.form-select {
+    display: none;
+  }
+  ol.breadcrumb {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .row.price-store {
+    display: none;
+  }
 }
