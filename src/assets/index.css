@@ -1,0 +1,58 @@
+/* Card filter */
+
+.card-filter .card {
+    background-color: #fafafa;
+    border-color: #a7a2a2 !important;
+}
+
+.form-select {
+    color: #acb4b8 !important;
+    font-size: 12px;
+}
+
+button.btn.btn-block.btn-info.btn-sm {
+    background: #0c9ef3;
+}
+
+/* Card list */
+.love {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.price {
+    font-size: 1.2rem !important;
+    padding: 10px;
+}
+
+span.outlet {
+    font-size: 12px;
+    color: #acb4b8;
+}
+
+.title p {
+    font-size: 16px;
+    margin: unset;
+}
+
+ul.list li {
+    color: #acb4b8;
+    font-size: 12px;
+    float: left;
+    margin-right: 20px;
+}
+
+li:first-child {
+    list-style: none;
+}
+
+span.pricemonth {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0c9ef3;
+}
+
+p.card-text.font-weight-light {
+    font-size: 8px;
+}
