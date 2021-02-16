@@ -9,7 +9,7 @@ const BreadCrumb = () => {
 					<li className="breadcrumb-item" aria-current="page">
 						HOME
 					</li>
-					<li className="breadcrumb-item" aria-current="page">
+					<li className="breadcrumb-item font-weight-bold" aria-current="page">
 						<a href="#">DAFTAR MOBIL</a>
 					</li>
 				</ol>

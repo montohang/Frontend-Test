@@ -1,3 +1,15 @@
+/* Breadcrumb */
+.breadcrumb {
+  background: transparent !important;
+}
+
+.breadcrumb-item {
+  font-size: 14px;
+}
+
+/* End breadcrumb */
+
+
 /* Card filter */
 .card-filter .card {
     background-color: #fafafa;
@@ -13,6 +25,12 @@ button.btn.btn-block.btn-info.btn-sm {
     background: #0c9ef3;
 }
 
+/* Price color */
+.price.text-info {
+    color: #0c9ef3!important;
+}
+
+/* Order list item */
 
 ol, ul {
   padding-left: 0rem !important;
@@ -35,6 +53,8 @@ li span {
   padding-right: 2rem;
   text-decoration: none;
 }
+
+/* Car action */
 .car-action p {
   font-size: 10px;
 }
@@ -109,9 +129,7 @@ li span {
   }
 }
 
-.breadcrumb {
-background: transparent !important;
-}
+
 
 .option-icon {
   font-size: 2.5rem;
@@ -120,3 +138,9 @@ background: transparent !important;
 hr {
   border-top: none !important;
 }
+
+/* Pagination */
+.pagination {
+   justify-content: center;
+}
+/* End pagination */

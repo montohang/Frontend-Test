@@ -3,7 +3,7 @@ import React from 'react';
 const Pagination = () => {
 	return (
 		<nav aria-label="Page navigation example">
-			<ul class="pagination">
+			<ul class="pagination mx-auto">
 				<li class="page-item">
 					<a class="page-link" href="#" aria-label="Previous">
 						<span aria-hidden="true">&laquo;</span>

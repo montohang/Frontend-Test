@@ -61,7 +61,7 @@ const CardList = () => {
 
 						<hr />
 						<div className="car-cicil text-center text-lg-left text-md-left font-weight-bold">
-							Angsuran mulai dari <span className="text-info">{data.price}/Bulan</span>
+							Angsuran mulai dari <span className="price text-info">{data.price}/Bulan</span>
 						</div>
 						<div className="car-cicil-scheme text-center text-lg-left text-md-left text-secondary mb-4">
 							Menggunakan simulasi kredit <span className="font-weight-bold">{data.bank}</span>
