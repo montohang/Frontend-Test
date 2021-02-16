@@ -2,17 +2,18 @@ import React from 'react';
 // import '../breadcrumb/index.css';
 
 const BreadCrumb = () => {
-	var arrow = { '--bs-breadcrumb-divider': '>' };
 	return (
-		<nav style={{ arrow }} aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="#">Home</a>
-				</li>
-				<li class="breadcrumb-item active" aria-current="page">
-					Library
-				</li>
-			</ol>
+		<nav aria-label="breadcrumb" className="bg-light">
+			<div className="px-3">
+				<ol className="breadcrumb">
+					<li className="breadcrumb-item" aria-current="page">
+						HOME
+					</li>
+					<li className="breadcrumb-item" aria-current="page">
+						<a href="#">DAFTAR MOBIL</a>
+					</li>
+				</ol>
+			</div>
 		</nav>
 	);
 };

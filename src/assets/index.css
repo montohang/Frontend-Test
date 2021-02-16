@@ -1,5 +1,4 @@
 /* Card filter */
-
 .card-filter .card {
     background-color: #fafafa;
     border-color: #a7a2a2 !important;
@@ -7,88 +6,117 @@
 
 .form-select {
     color: #acb4b8 !important;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 button.btn.btn-block.btn-info.btn-sm {
     background: #0c9ef3;
 }
 
-/* Card list */
-.love {
-    position: absolute;
-    right: 10px;
-    top: 0px;
+
+ol, ul {
+  padding-left: 0rem !important;
 }
 
-.price {
-    font-size: 1.2rem !important;
-    padding: 10px;
-}
-
-span.outlet {
-    font-size: 12px;
-    color: #acb4b8;
-}
-
-.title p {
-    font-size: 16px;
-    margin: unset;
-}
-
-ul.list li {
-    color: #acb4b8;
-    font-size: 12px;
-    /* float: left; */
-    margin-right: 20px;
+li {
+  float: left;
 }
 
 li:first-child {
-    list-style: none;
+  list-style: none;
 }
 
-span.pricemonth {
-    font-size: 15px;
-    font-weight: 500;
-    color: #0c9ef3;
+.car-specification {
+  font-size: 12px;
 }
 
-p.card-text.font-weight-light {
-    font-size: 8px;
+li span {
+  display: block;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+.car-action p {
+  font-size: 10px;
 }
 
-.card.bot {
-    height: 6.5rem;
-    justify-content: center;
-    align-items: center;
+.action-icon {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
 }
 
-ol.breadcrumb {
-    background: white;
+.car-cicil {
+  font-size: 12px;
 }
 
+.car-cicil span {
+  font-size: 13px;
+}
 
-/* Responsive style */
-@media only screen and (max-width: 430px) {
-  .row.price-store {
-      display: none;
-  }
-  .card.border-dark.mb-3.text-left {
+.car-cicil-scheme {
+  font-size: 10px;
+}
+.car-description {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.car-otr {
+  font-size: 9px;
+}
+
+.car-action .card {
+  height: 4rem;
+}
+.car-option {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .desktop-price {
     display: none;
   }
-  .col.text-left {
-    display: none;
-  }
-  select.form-select {
-    display: none;
-  }
-  ol.breadcrumb {
-    display: none;
+  .mobile-price {
+    display: unset;
   }
 }
-
 @media only screen and (min-width: 768px) {
-  .row.price-store {
+  .desktop-price {
+    display: unset;
+  }
+  .mobile-price {
     display: none;
   }
+}
+
+@media only screen and (max-width: 426px) {
+  .car-specification {
+    font-size: 10px;
+  }
+  li span {
+    padding-right: 1rem;
+  }
+  .car-cicil {
+    text-align: center !important;
+  }
+  .car-otr {
+    font-size: 14px;
+    text-align: center;
+  }
+  .car-filter {
+    display: none;
+  }
+  .car-option {
+    display: unset;
+  }
+}
+
+.breadcrumb {
+background: transparent !important;
+}
+
+.option-icon {
+  font-size: 2.5rem;
+}
+
+hr {
+  border-top: none !important;
 }

@@ -1,158 +1,147 @@
+// Data mobil
 export const DataCar = [
 	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
+		name: 'HONDA',
+		subname: 'ALL NEW CRV 15E CVT TURBO PRESTIGE',
+		outlet: 'OTR DKI Jakarta',
 		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200cc',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'KKB BCA',
 		angsuran: '2.742.000'
 	},
 	{
-		name: 'Toyota',
-		subname: 'Ayla 1.0 D MT',
-		outlet: 'Otr dki jakarta',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
 		price: '95.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
-		note: '2.745.000'
-	},
-	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
-		transmisi: 'Manual',
-		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'MAYBANK',
 		note: '2.742.000'
 	},
 	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
-		transmisi: 'Manual',
-		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
-		angsuran: '2.742.000'
-	},
-	{
-		name: 'Toyota',
-		subname: 'Ayla 1.0 D MT',
-		outlet: 'Otr dki jakarta',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
 		price: '95.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
-		note: '2.745.000'
-	},
-	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
-		transmisi: 'Manual',
-		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'MPM FINANCE',
 		note: '2.742.000'
 	},
 	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
+		name: 'HONDA',
+		subname: 'ALL NEW CRV 15E CVT TURBO PRESTIGE',
+		outlet: 'OTR DKI Jakarta',
 		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200cc',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'KKB BCA',
 		angsuran: '2.742.000'
 	},
 	{
-		name: 'Toyota',
-		subname: 'Ayla 1.0 D MT',
-		outlet: 'Otr dki jakarta',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
 		price: '95.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
-		note: '2.745.000'
-	},
-	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-		cc: '1200c',
-		transmisi: 'Manual',
-		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'MAYBANK',
 		note: '2.742.000'
 	},
 	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
+		price: '95.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'MPM FINANCE',
+		note: '2.742.000'
+	},
+	{
+		name: 'HONDA',
+		subname: 'ALL NEW CRV 15E CVT TURBO PRESTIGE',
+		outlet: 'OTR DKI Jakarta',
+		price: '100.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200cc',
+		transmisi: 'Manual',
+		bahanBakar: 'Bensin',
+		bank: 'KKB BCA',
 		angsuran: '2.742.000'
 	},
 	{
-		name: 'Toyota',
-		subname: 'Ayla 1.0 D MT',
-		outlet: 'Otr dki jakarta',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
 		price: '95.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
-		note: '2.745.000'
+		bank: 'MAYBANK',
+		note: '2.742.000'
 	},
 	{
-		name: 'Honda',
-		subname: 'All new crv 15e cvt turbo prestige',
-		outlet: 'Otr dki jakarta',
-		price: '100.000.000',
-		image:
-			'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
+		price: '95.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
 		cc: '1200c',
 		transmisi: 'Manual',
 		bahanBakar: 'Bensin',
-		bank: 'Kkb bca',
+		bank: 'MPM FINANCE',
+		note: '2.742.000'
+	},
+	{
+		name: 'HONDA',
+		subname: 'ALL NEW CRV 15E CVT TURBO PRESTIGE',
+		outlet: 'OTR DKI Jakarta',
+		price: '100.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200cc',
+		transmisi: 'Manual',
+		bahanBakar: 'Bensin',
+		bank: 'KKB BCA',
+		angsuran: '2.742.000'
+	},
+	{
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
+		price: '95.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200c',
+		transmisi: 'Manual',
+		bahanBakar: 'Bensin',
+		bank: 'MAYBANK',
+		note: '2.742.000'
+	},
+	{
+		name: 'TOYOTA',
+		subname: 'AYLA 1.0 D MT',
+		outlet: 'OTR DKI Jakarta',
+		price: '95.000.000',
+		image: 'http://www.ramadhanirentcar.com/wp-content/uploads/2017/04/fortuner-PNG-e1517981575435.png',
+		cc: '1200c',
+		transmisi: 'Manual',
+		bahanBakar: 'Bensin',
+		bank: 'MPM FINANCE',
 		note: '2.742.000'
 	}
 ];

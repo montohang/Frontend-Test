@@ -5,18 +5,21 @@ import Pagination from './sections/Pagination';
 import SearchFilter from './sections/SearchFilter';
 import './assets/index.css';
 import BreadCrumb from './components/breadcrumb/BreadCrumb';
+import CardOption from './sections/CardOption';
 
 function App() {
 	return (
 		<div className="App">
 			<BreadCrumb />
-			<div class="container-fluid mt-5">
+			<hr />
+			<div className="container mt-3">
 				<div class="row">
-					<div class="col-12 col-md-6 col-lg-3">
+					<div className="col-12 col-md-6 col-lg-3 mb-3">
 						<CardFilter />
 					</div>
-					<div class="col-12 col-md-6 col-lg-9">
+					<div className="col-12 col-md-6 col-lg-9">
 						<SearchFilter />
+						<CardOption />
 						<CardList />
 						<Pagination />
 					</div>
